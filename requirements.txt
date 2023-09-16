@@ -1,0 +1,12 @@
+torch
+torchvision
+scikit-learn
+qiskit
+qiskit-terra
+qiskit-aer
+qiskit_machine_learning
+pandas
+matplotlib
+pylatexenc
+ipywidgets
+tqdm
