@@ -1,6 +1,9 @@
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
+import matplotlib.style as style
+
+style.use("tableau-colorblind10")
 
 
 def dataloader_to_arrays_3d(dataloader):
