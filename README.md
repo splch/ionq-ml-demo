@@ -4,13 +4,15 @@
 
 This repository contains code for a hybrid quantum-classical machine learning classifier. The model is trained on the red wine quality dataset and utilizes both classical neural networks and quantum neural networks (QNNs) from Qiskit.
 
+**Ansatz**:
+
+![Ansatz](./assets/ansatz.png)
+
+**Decision Boundary:**
+
+![Decision Boundary](./assets/boundary.png)
+
 ## Installation
-
-First, clone the repository:
-
-```bash
-git clone https://github.com/yourusername/ionq-ml-demo.git
-```
 
 Navigate to the project directory:
 
