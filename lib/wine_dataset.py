@@ -24,8 +24,8 @@ def load_csv(filepath):
 
 
 def preprocess_data(wine_data):
-    X = wine_data[["alcohol", "sulphates"]]
-    y = (wine_data["quality"] >= 6).astype(int)
+    X = wine_data[["alcohol", "sulphates", "volatile acidity"]]
+    y = (wine_data["quality"] > 5).astype(int)
     scaler = StandardScaler()
     return scaler.fit_transform(X), y
 
