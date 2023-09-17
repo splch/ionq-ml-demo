@@ -6,11 +6,11 @@ This repository contains code for a hybrid quantum-classical machine learning cl
 
 **Ansatz**:
 
-![Ansatz](./assets/ansatz.png)
+![Ansatz](./misc/ansatz.png)
 
 **Decision Boundary:**
 
-![Decision Boundary](./assets/boundary.png)
+![Decision Boundary](./misc/boundary.png)
 
 ## Installation
 

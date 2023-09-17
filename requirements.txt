@@ -2,6 +2,7 @@ torch
 torchvision
 scikit-learn
 sympy
+pandas
 qiskit
 qiskit-terra
 qiskit-aer
