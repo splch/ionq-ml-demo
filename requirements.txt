@@ -1,6 +1,7 @@
 torch
 torchvision
 scikit-learn
+sympy
 qiskit
 qiskit-terra
 qiskit-aer

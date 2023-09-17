@@ -58,7 +58,7 @@ def get_class_weights(y_train):
     return compute_class_weight("balanced", classes=classes, y=y_train)
 
 
-def get_wine_dataloaders(batch_size=32, test_size=0.2, filepath="winequality-red.csv"):
+def get_wine_dataloaders(batch_size=32, test_size=0.2, filepath="misc/winequality-red.csv"):
     wine_data = load_csv(filepath)
     X, y = preprocess_data(wine_data)
     X_train, X_test, y_train, y_test = split_data(X, y, test_size)
