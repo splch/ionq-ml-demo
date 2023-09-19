@@ -1,4 +1,5 @@
 import numpy as np
+import torch
 from io import BytesIO
 from PIL import Image
 from IPython.display import display, Latex
@@ -11,6 +12,12 @@ from qiskit.visualization import plot_bloch_multivector, plot_histogram
 def random_angle():
     """Generate a random angle between -2π and 2π."""
     return np.random.uniform(-2 * np.pi, 2 * np.pi)
+
+
+def judge_wine(model, wine):
+    output = model(torch.tensor([wine]))
+    good = 1 + float(output.data[0][1])
+    return f"{round(100 * good)}% good"
 
 
 def plot_circuit(circuit: QuantumCircuit):
